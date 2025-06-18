@@ -151,7 +151,7 @@ public class EmployeeStream {
                 .filter(emp -> emp.getDepartment().equals("IT"))
                 .collect(Collectors.averagingDouble(Employee::getSalary));
         System.out.println("\nAverage salary in IT department is $" + avgITSalary);
-
+// to check
 
 
     }
